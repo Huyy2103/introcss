@@ -40,4 +40,31 @@ p {
 .skip-link:focus {
   top: 0;
 }
+nav {
+  display: inline-block;
+  width: 80%;
+  background-color: #005599;
+  padding: 10px;
+}
 
+nav img {
+  width: 10%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-between;
+  align-items: start;
+  row-gap: 20px;
+}
+
+.grid img {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
